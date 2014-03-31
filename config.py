@@ -3,7 +3,7 @@
 """KindleEar的配置文件，开头两个配置项是必须修改的。"""
 
 SRC_EMAIL = "arpanchavdaeng@gmail.com"  #邮件的发件人地址
-DOMAIN = " http://calibre-box-21728.apse1.nitrousbox.com:3000 " #你的域名，用于归档链接
+DOMAIN = "http://calibre-box-21728.apse1.nitrousbox.com:3000" #你的域名，用于归档链接
 
 TIMEZONE = 8  #默认时区
 
