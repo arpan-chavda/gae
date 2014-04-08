@@ -12,7 +12,7 @@ class Hindu(BaseFeedBook):
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
     mastheadfile          = "th.jpg"
-    coverfile             = "cv_lifeweek.jpg"
+    #coverfile             = "cv_lifeweek.jpg"
     #mastheadfile          = "http://www.thehindu.com/template/1-0-1/gfx/logo.jpg"
     #coverfile             = "cv_lifeweek.jpg"
     fulltext_by_readability = True
