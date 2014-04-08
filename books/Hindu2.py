@@ -17,7 +17,7 @@ class Hindu2(BaseFeedBook):
     #coverfile             = "cv_lifeweek.jpg"
     #fulltext_by_readability = True
     oldest_article        = 1
-    #max_articles_per_feed = 1
+    max_articles_per_feed = 1
     keep_image = True
     keep_only_tags = [dict(name='div', attrs={'id':'left-column'}),]
     remove_tags = ['script',]

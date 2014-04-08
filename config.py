@@ -3,7 +3,7 @@
 """KindleEar的配置文件，开头两个配置项是必须修改的。"""
 
 SRC_EMAIL = "arpanchavdaeng@gmail.com"  #邮件的发件人地址
-DOMAIN = "http://calibre-box-21728.apse1.nitrousbox.com:3000" #你的域名，用于归档链接
+DOMAIN = "http://kindlearpan.appspot.com" #你的域名，用于归档链接，也可以使用https协议
 
 TIMEZONE = 8  #默认时区
 
@@ -65,11 +65,3 @@ SENDMAIL_ALL_POSTFIX = False
 SHARE_FUCK_GFW_SRV = "http://kforwarder.herokuapp.com/?k=xzSlE&t=60&u=%s"
 SAVE_TO_EVERNOTE = u"Save to evernote"
 SAVE_TO_WIZ = u"Save to Wiz"
-SHARE_ON_XWEIBO = u"Share on Sina Weibo"
-SHARE_ON_TWEIBO = u"Share on Tencent Weibo"
-SHARE_ON_FACEBOOK = u"Share on facebook"
-SHARE_ON_TWITTER = u"Tweet it"
-SHARE_ON_TUMBLR = u"Share on tumblr"
-
-#图片转换成灰度
-COLOR2GRAY = True
