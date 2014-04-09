@@ -9,7 +9,8 @@ def getBook():
 class PIB(BaseFeedBook):
     title                 = u'PIB'
     description           = u'The latest English Press Releases from Press Information Bureau Govt. Of India.'
-    
+    oldest_article        = 7
+    deliver_days          = ['Saturday']
     feeds = [
             (u'Latest News', 'http://pib.nic.in/newsite/rssenglish.aspx'),
             ]
