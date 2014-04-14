@@ -14,9 +14,7 @@ class pocket(BaseFeedBook):
     #mastheadfile          = "mh_lifeweek.gif"
     #coverfile             = "cv_lifeweek.jpg"
     oldest_article        = 100
-    
     #deliver_days          = ['Saturday']
-    
     feeds = [
             (u'Current Feeds', 'http://getpocket.com/users/arpanchavdaeng/feed/read'),
            ]
