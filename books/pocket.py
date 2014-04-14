@@ -13,7 +13,7 @@ class pocket(BaseFeedBook):
     page_encoding         = "utf-8"
     #mastheadfile          = "mh_lifeweek.gif"
     #coverfile             = "cv_lifeweek.jpg"
-    #oldest_article        = 7
+    oldest_article        = 100
     
     #deliver_days          = ['Saturday']
     
