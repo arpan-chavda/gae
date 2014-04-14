@@ -11,7 +11,7 @@ class IE(BaseFeedBook):
     language              = 'en'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
-    mastheadfile          = "ie.jpg"
+    #mastheadfile          = "ie.jpg"
     #coverfile             = "cv_lifeweek.jpg"
     oldest_article        = 1
     
